@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "366679380108",
+    "firebase_url": "https://memelog-f29b1.firebaseio.com",
+    "project_id": "memelog-f29b1",
+    "storage_bucket": "memelog-f29b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366679380108:android:8263c45f4f72c725702ba9",
+        "android_client_info": {
+          "package_name": "com.example.blogapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366679380108-aoaafca3k4d3n88kpi6phcgr5svg5lbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqQWaMP32Or3bCQcqb1Kf_Hm4t3rkTmSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366679380108-aoaafca3k4d3n88kpi6phcgr5svg5lbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
