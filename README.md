@@ -1,4 +1,4 @@
-# blogapp
+# MemeLog
 
 A new Flutter application.
 
