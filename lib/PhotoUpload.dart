@@ -66,9 +66,8 @@ class _PhotoUploadsState extends State<PhotoUploads> {
         final StorageUploadTask uploadTask=postImageRef.child(timekey.toString()+'.jpg').putFile(sampleImage);
         var imageUrl=await(await uploadTask.onComplete).ref.getDownloadURL();
         url=imageUrl.toString();
-        Navigator.pop(context);
         SaveToDatabase(url);
-
+        Navigator.pushNamed(context, LoginPage.id);
     }
   }
   // ignore: non_constant_identifier_names

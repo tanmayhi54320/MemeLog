@@ -127,6 +127,7 @@ class _LoginPageState extends State<LoginPage> {
           obscureText: true,
           decoration: InputDecoration(labelText: 'Password'),
         ),
+        SizedBox(height: 20.0,),
       ];
     } else {
       return [
@@ -163,6 +164,7 @@ class _LoginPageState extends State<LoginPage> {
           obscureText: true,
           decoration: InputDecoration(labelText: 'Confirm Password'),
         ),
+        SizedBox(height: 20.0,),
       ];
     }
   }
